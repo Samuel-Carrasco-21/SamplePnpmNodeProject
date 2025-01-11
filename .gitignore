@@ -1,0 +1,17 @@
+# Node dependencies
+/node_modules
+
+# Build directory
+/dist
+
+# Optional
+/.vscode 
+
+# Enviorment variables
+.env
+
+# Log directory
+/logs
+
+# Optional: Include this if you want to manage Node.js packages with a tool other than pnpm
+pnpm-lock.yaml
