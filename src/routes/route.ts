@@ -1,11 +1,11 @@
 import { Router } from 'express';
-import { rootEndpoint } from '@/controllers/root.controller';
+import { rootEndpoint } from '../controllers/root.controller';
 import {
   createCustomMessage,
   greetUser,
-} from '@/controllers/message.controller';
-import { performMathOperation } from '@/controllers/math.controller';
-import { config } from '@/config/config';
+} from '../controllers/message.controller';
+import { performMathOperation } from '../controllers/math.controller';
+import { config } from '../config/config';
 
 const router = Router();
 
